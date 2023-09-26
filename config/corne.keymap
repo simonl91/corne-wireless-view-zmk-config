@@ -95,10 +95,10 @@
 
             label = "Raise";
             bindings = <
-&kp TAB           &kp EXCL  &kp AT       &kp HASH       &kp DLLR          &kp PRCNT    &kp CARET             &kp AMPS              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &kp QUESTION
-&mt LCTRL ESCAPE  &kp PIPE  &kp AT_SIGN  &kp LESS_THAN  &kp GREATER_THAN  &trans       &kp ASTERISK          &kp NON_US_BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET  &kp SINGLE_QUOTE
-&kp LSHFT         &trans    &trans       &trans         &trans            &trans       &kp PLUS              &kp EQUAL             &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS  &kp DELETE
-                                         &kp LGUI       &trans            &kp SPACE    &mt LEFT_SHIFT ENTER  &trans                &kp RALT
+&kp TAB           &kp EXCL           &kp AT            &kp HASH  &kp DLLR      &kp PRCNT    &kp CARET             &kp AMPS               &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
+&mt LCTRL ESCAPE  &kp TILDE          &kp RA(NUMBER_2)  &kp NUBS  &kp LS(NUBS)  &trans       &kp PIPE              &kp PLUS               &kp RA(NUMBER_7)  &kp RA(NUMBER_0)      &kp RIGHT_BRACE        &kp BACKSLASH
+&kp LSHFT         &kp RIGHT_BRACKET  &kp RS(EQUAL)     &trans    &trans        &trans       &kp MINUS             &kp RIGHT_PARENTHESIS  &kp RA(NUMBER_8)  &kp RA(NUMBER_9)      &kp SLASH              &kp DELETE
+                                                       &kp LGUI  &trans        &kp SPACE    &mt LEFT_SHIFT ENTER  &trans                 &kp RALT
             >;
         };
 
