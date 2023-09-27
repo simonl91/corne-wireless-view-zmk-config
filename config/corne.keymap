@@ -21,10 +21,13 @@
             compatible = "zmk,behavior-macro";
             label = "GTHAN";
             #binding-cells = <0>;
-            bindings = 
-                <&macro_press &kp LSHFT>, 
-                <&macro_tap &kp NUBS>,
-                <&macro_release &kp LSHFT;
+            bindings =
+                <&macro_press>,
+                <&kp LSHFT>,
+                <&macro_tap>,
+                <&kp NUBS>,
+                <&macro_release>,
+                <&kp LSHFT>;
         };
     };
 
@@ -72,10 +75,10 @@
 
             label = "Raise";
             bindings = <
-&kp TAB           &kp EXCL           &kp AT            &kp HASH  &kp DLLR      &kp PRCNT    &kp CARET             &kp AMPS               &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
-&mt LCTRL ESCAPE  &kp GRAVE          &kp RA(NUMBER_2)  &kp NUBS  &kp LS(NUBS)  &trans       &kp PIPE              &kp PLUS               &kp RA(NUMBER_7)  &kp RA(NUMBER_0)      &kp RIGHT_BRACE        &kp BACKSLASH
-&kp LSHFT         &kp RIGHT_BRACKET  &kp RS(EQUAL)     &trans    &trans        &trans       &kp MINUS             &kp RIGHT_PARENTHESIS  &kp RA(NUMBER_8)  &kp RA(NUMBER_9)      &kp SLASH              &kp DELETE
-                                                       &kp LGUI  &trans        &kp SPACE    &mt LEFT_SHIFT ENTER  &trans                 &kp RALT
+&kp TAB           &kp EXCL           &kp AT            &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET             &kp AMPS               &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
+&mt LCTRL ESCAPE  &kp GRAVE          &kp RA(NUMBER_2)  &kp NUBS  &gthan    &trans       &kp PIPE              &kp PLUS               &kp RA(NUMBER_7)  &kp RA(NUMBER_0)      &kp RIGHT_BRACE        &kp BACKSLASH
+&kp LSHFT         &kp RIGHT_BRACKET  &kp RS(EQUAL)     &trans    &trans    &trans       &kp MINUS             &kp RIGHT_PARENTHESIS  &kp RA(NUMBER_8)  &kp RA(NUMBER_9)      &kp SLASH              &kp DELETE
+                                                       &kp LGUI  &trans    &kp SPACE    &mt LEFT_SHIFT ENTER  &trans                 &kp RALT
             >;
         };
 
