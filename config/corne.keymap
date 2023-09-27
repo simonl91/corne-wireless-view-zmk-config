@@ -16,6 +16,15 @@
     behaviors {
     };
 
+    macros {
+        gthan: gthan {
+            compatible = "zmk,behavior-macro";
+            label = "GTHAN";
+            #binding-cells = <0>;
+            bindings = <&kp LSHFT &kp NUBS>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
